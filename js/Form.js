@@ -25,6 +25,7 @@ class Form {
       player.updateCount(0);
       game.update(0);
       Player.resetPlayer();
+      Player.updatecarsatend(0);
     })
     this.button.mousePressed(()=>{
       this.input.hide();
